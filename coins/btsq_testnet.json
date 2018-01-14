@@ -1,0 +1,7 @@
+{
+    "name": "Testcoin Community",
+    "symbol": "TTSQ",
+    "algorithm": "equihash",
+    "txfee": 0.05
+}
+

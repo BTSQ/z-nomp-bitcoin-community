@@ -1,0 +1,7 @@
+{
+    "name": "Bitcoin Community",
+    "symbol": "BTSQ",
+    "algorithm": "equihash",
+    "txfee": 0.05
+}
+
