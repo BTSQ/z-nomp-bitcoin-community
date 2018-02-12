@@ -142,9 +142,9 @@ function displayCharts() {
 
 function updateStats() {
 	totalHash = statData.totalHash;
-	totalPaid = statData.paid;
-	totalBal = statData.balance;
-	totalImmature = statData.immature;
+	totalPaid = (statData.paid * 10000).toFixed(4);
+	totalBal = (statData.balance * 10000).toFixed(4);
+	totalImmature = (statData.immature * 10000).toFixed(4);
 	totalShares = statData.totalShares;
 	// do some calculations
 	var _blocktime = 250;
